@@ -14,3 +14,16 @@ apt-get install -y python3-pip
 ```
 git clone https://github.com/sourabhdeshmukh/web_terminal  
 cd web_terminal/server-python3
+```
+### Navigate to Browser  
+Search the following in your browser search field.  
+```
+http://localhost:5002
+```
+You will be presented your local terminal in your browser window.
+
+### Credits
+Thanks to Tamás Hegedűs for the websocket_terminal project. Which helped me to build this project.  
+Greenlet and wsgi implementation: eventlet  
+Python ssh client: paramiko  
+Browser side terminal: xterm.js
