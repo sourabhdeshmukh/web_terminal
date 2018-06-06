@@ -15,7 +15,6 @@ apt-get install -y python3-pip
 git clone https://github.com/sourabhdeshmukh/web_terminal  
 cd web_terminal/server-python3
 pip3 install -r requirements.txt
-service ssh start
 python3 websocket_terminal.py
 ```
 ### Navigate to Browser  
